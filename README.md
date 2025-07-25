@@ -78,8 +78,19 @@
 </table>
 
 <h2>📷 Sample Predictions</h2>
-<p>Sample Prediction Image</p>
-<p>Sample Prediction Image</p>
+<p>Below are a few example predictions made by the model:</p>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 250px;">
+        <img src="assessts/Screenshot 2025-07-23 224656.png" alt="Sample Prediction 1" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px;">
+        <p style="text-align: center;">Tomato Leaf — Predicted: Tomato (97.2%)</p>
+    </div>
+    <div style="flex: 1; min-width: 250px;">
+        <img src="assessts/Screenshot 2025-07-23 224710.png" alt="Sample Prediction 2" style="max-width: 100%; border: 1px solid #ccc; border-radius: 6px;">
+        <p style="text-align: center;">Grape Leaf — Predicted: Grape (96.4%)</p>
+    </div>
+    
+</div>
 
 <h2>🧪 Evaluation Metrics</h2>
 <ul>
